@@ -25,7 +25,7 @@ python -c "from src.utils import slugify; print(slugify('Hello World'))"
 | `text_utils` | | 팀원1 | |
 | `date_utils` | | 팀원2 | |
 | `collection_utils` | | 팀원2 | |
-| `number_utils` | | 팀원3 | |
+| `number_utils` | `format_currency`, `clamp` | 팀원3 | 통화 포맷·범위 제한 |
 
 ## 문서
 
