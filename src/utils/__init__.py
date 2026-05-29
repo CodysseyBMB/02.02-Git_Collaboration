@@ -1,17 +1,18 @@
 """Utility functions exposed by the package."""
 
-from .number_utils import format_currency, clamp
 from .collection_utils import chunk, unique
 from .date_utils import days_between, to_iso
-from .string_utils import slugify, truncate
+from .number_utils import clamp, format_currency
+from .string_utils import slugify, truncate, word_count
 
 __all__ = [
     "chunk",
-    "unique",
-    "days_between",
-    "to_iso",
-    "slugify",
-    "truncate",
-    "format_currency",
     "clamp",
+    "days_between",
+    "format_currency",
+    "slugify",
+    "to_iso",
+    "truncate",
+    "unique",
+    "word_count",
 ]

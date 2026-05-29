@@ -27,3 +27,10 @@ def truncate(text: str, max_len: int) -> str:
     if max_len <= 3:
         return "." * max_len
     return text[: max_len - 3] + "..."
+
+
+def word_count(text: str) -> int:
+    """Return the number of whitespace-separated words."""
+    if not text or not text.strip():
+        return 0
+    return len(text.split())
