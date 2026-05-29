@@ -1,5 +1,7 @@
-"""Utils package — Phase 1 이후 각 모듈 함수를 재노출합니다."""
+"""Utility functions exposed by the package."""
 
 from .number_utils import format_currency, clamp
+from .date_utils import days_between, to_iso
+from .text_utils import slugify, truncate
 
-__all__ = ["format_currency", "clamp"]
+__all__ = ["days_between", "to_iso", "slugify", "truncate", "format_currency", "clamp"]
