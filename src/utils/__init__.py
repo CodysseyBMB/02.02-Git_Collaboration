@@ -3,7 +3,7 @@
 from .number_utils import format_currency, clamp
 from .collection_utils import chunk, unique
 from .date_utils import days_between, to_iso
-from .text_utils import slugify, truncate
+from .string_utils import slugify, truncate
 
 __all__ = [
     "chunk",
