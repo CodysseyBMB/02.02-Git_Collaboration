@@ -23,7 +23,7 @@ python -c "from src.utils import slugify; print(slugify('Hello World'))"
 | 모듈 | 함수 | 작성자 | 설명 |
 | ---- | ---- | ------ | ---- |
 | `text_utils` | | 팀원1 | |
-| `date_utils` | | 팀원2 | |
+| `date_utils` | `days_between`, `to_iso` | 팀원2 | 날짜 간 일수 계산, ISO 날짜 문자열 변환 |
 | `collection_utils` | | 팀원2 | |
 | `number_utils` | | 팀원3 | |
 
