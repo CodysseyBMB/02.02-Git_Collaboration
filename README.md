@@ -22,7 +22,8 @@ python -c "from src.utils import slugify; print(slugify('Hello World'))"
 
 | 모듈 | 함수 | 작성자 | 설명 |
 | ---- | ---- | ------ | ---- |
-| `text_utils` | | 팀원1 | |
+| `text_utils` | `slugify` | 팀원1 | 소문자·공백→하이픈 |
+| `text_utils` | `truncate` | 팀원1 | 최대 길이 초과 시 `...` |
 | `date_utils` | | 팀원2 | |
 | `collection_utils` | | 팀원2 | |
 | `number_utils` | | 팀원3 | |
