@@ -25,7 +25,7 @@ python -c "from src.utils import slugify; print(slugify('Hello World'))"
 | `text_utils` | `slugify` | 팀원1 | 소문자·공백→하이픈 |
 | `text_utils` | `truncate` | 팀원1 | 최대 길이 초과 시 `...` |
 | `date_utils` | `days_between`, `to_iso` | 팀원2 | 날짜 간 일수 계산, ISO 날짜 문자열 변환 |
-| `number_utils` | | 팀원3 | |
+| `number_utils` | `format_currency`, `clamp` | 팀원3 | 통화 포맷·범위 제한 |
 
 ## 문서
 
